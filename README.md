@@ -5,5 +5,5 @@
 
 [Render link](https://f2wb00pittu-0ao6.onrender.com)
 
-Class: University .
+Class: University.<br>
 University attributes : University Name, University Location, Number of Courses offres.
