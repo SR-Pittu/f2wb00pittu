@@ -9,7 +9,6 @@ var usersRouter = require('./routes/users');
 var universityRouter = require('./routes/university');
 var gridbuildRouter = require('./routes/gridbuild');
 
-
 var app = express();
 
 // view engine setup
