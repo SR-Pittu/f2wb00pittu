@@ -7,5 +7,12 @@ block content
     div(class="container-fluid mt-3")
     div(class="row")
         each university,index in universities
-            div(class="col-sm-2 bg-warning m-1 p-3" style="color:maroon; background-color:ivory;" ) #{university.University_Name} - #{university.University_Location} - #{university.Number_of_Courses_Offered}
+            div(class="col-sm-2 bg-warning m-1 p-3" style="color:maroon; background-color:ivory;" onclick=`buy(${index})`)  #{university.University_Name} - #{university.University_Location} - #{university.Number_of_Courses_Offered}
+    
+    script.
+     
+      function buy(itemNo)
+      {
+        alert(`You purchased Item ${itemNo+1}`)
+      }
    
